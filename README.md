@@ -38,7 +38,7 @@ Here are a few issues we've identified that need fixing:
 - [ ] Fix the placement of the team name on the giant screen: The team names should be more prominently displayed.
 - [ ] Resolve the low voltage warning: Ensure the Raspberry Pi has a stable power supply.
 
-### Manufacturing Images
+### Refining whole devices
 Finally, here are some images from the manufacturing process of the quiz controller setup. These provide a behind-the-scenes look at the assembly:
 
 
