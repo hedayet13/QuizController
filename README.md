@@ -1,9 +1,12 @@
 # Quiz Controller
 
-To run the quiz controller, execute the `main.py` script.
+Welcome to the Quiz Controller setup guide! Follow the steps below to get everything up and running.
+
+To run the quiz controller, execute the `main.py` script. This script will handle the logic for your quiz event.
 
 ### GPIO Pin Setup
-Used GPIO Pins:
+First, let's configure the GPIO pins. Below are the pins you'll need to use:
+
 ```
 Team1 = 11
 Team2 = 12
@@ -14,20 +17,28 @@ Team6 = 18
 reset = 22
 buzzer= 24
 ```
-Set the GPIO pins according to the schematic view of the Raspberry Pi:
+Make sure to set the GPIO pins according to the schematic view of the Raspberry Pi:
 <img src="/media/img4.jpg" alt="GPIO Schematic" width="600"/>
 
-## Images from the Event
-The team name appears in the corner of the giant screen:
-<img src="/media/img2.jpg" alt="Team Name Position" width="600"/>
+### Images from the Event
+Here are some snapshots from a recent event where the quiz controller was used. Notice that the team names are positioned in the corner of the giant screen:
 
-There's also a low voltage warning from the Raspberry Pi:
-<img src="/media/img3.jpg" alt="Low Voltage Warning" width="600"/>
+<img src="/media/img2.jpg" alt="Team Name Position" width="800"/>
 
-## Bugs to be Fixed
-- [x] Timing issue
-- [ ] Fix the placement of the team name on the giant screen
-- [ ] Resolve the low voltage warning
+Additionally, there's a low voltage warning displayed on the Raspberry Pi. This is something we'll need to address:
 
-## Manufacturing Images
+<img src="/media/img3.jpg" alt="Low Voltage Warning" width="800"/>
+
+### Bugs to be Fixed
+Here are a few issues we've identified that need fixing:
+- [x] Timing issue: This has been resolved.
+- [ ] Fix the placement of the team name on the giant screen: The team names should be more prominently displayed.
+- [ ] Resolve the low voltage warning: Ensure the Raspberry Pi has a stable power supply.
+
+### Manufacturing Images
+Finally, here are some images from the manufacturing process of the quiz controller setup. These provide a behind-the-scenes look at the assembly:
+
+
 <img src="/media/img1.jpg" alt="Manufacturing" width="400"/>
+
+Feel free to reach out if you have any questions or need further assistance with the setup. Happy quizzing!
