@@ -9,14 +9,14 @@ First, let's configure the GPIO pins. Below are the pins you'll need to use:
 
 
 ```
-Team1 = 11
-Team2 = 12
-Team3 = 13
-Team4 = 15
-Team5 = 16
-Team6 = 18
-reset = 22
-buzzer= 24
+Team1 = PIN 11
+Team2 = PIN 12
+Team3 = PIN 13
+Team4 = PIN 15
+Team5 = PIN 16
+Team6 = PIN 18
+reset = PIN 22
+buzzer= PIN 24
 ```
 Make sure to set the GPIO pins according to the schematic view of the Raspberry Pi:
 <img src="/media/img4.jpg" alt="GPIO Schematic" width="600"/>
